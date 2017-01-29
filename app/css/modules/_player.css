@@ -2,16 +2,6 @@
 *** PLAYERS
 **********************************************/
 
-/*
-.player-0-panel,
-.player-1-panel {
-    width: 50%;
-    float: left;
-    height: 600px;
-    padding: 100px;
-}
-*/
-
 .player {
   float: left;
   height: 600px;
