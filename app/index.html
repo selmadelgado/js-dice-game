@@ -2,45 +2,45 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
-        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
-    
     <title>Dice Game</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
 
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+    
+    
     <!-- build:css css/styles.css -->
     <link rel="stylesheet" href="/temp/styles.css">
     <!-- endbuild -->
   </head>
 
   <body>
-    <div class="wrapper clearfix">
-            <div class="player-0-panel active">
-                <div class="player-name" id="name-0">Player 1</div>
-                <div class="player-score" id="score-0">43</div>
-                <div class="player-current-box">
-                    <div class="player-current-label">Current</div>
-                    <div class="player-current-score" id="current-0">11</div>
-                </div>
-            </div>
-            
-            <div class="player-1-panel">
-                <div class="player-name" id="name-1">Player 2</div>
-                <div class="player-score" id="score-1">72</div>
-                <div class="player-current-box">
-                    <div class="player-current-label">Current</div>
-                    <div class="player-current-score" id="current-1">0</div>
-                </div>
-            </div>
-            
-            <button class="btn-new"><i class="ion-ios-plus-outline"></i>New game</button>
-            <button class="btn-roll"><i class="ion-ios-loop"></i>Roll dice</button>
-            <button class="btn-hold"><i class="ion-ios-download-outline"></i>Hold</button>
-            
-            <img src="../assets/images/dice-5.png" alt="Dice" class="dice">
-      
-        </div>
+    <div class="wrapper">
+       <div class="player player--active">
+         <div class="player__name">Player 1</div>
+         <div class="player__score">0</div>
+         <div class="player__current-box">
+           <div class="player__current-label">Current</div>
+           <div class="player__current-score">11</div>
+         </div>
+       </div>
+ 
+       <div class="player">
+         <div class="player__name">Player 2</div>
+         <div class="player__score" id="score__2">0</div>
+         <div class="player__current-box">
+           <div class="player__current-label">Current</div>
+           <div class="player__current-score">0</div>
+         </div>
+       </div>
+ 
+       <button class="btn__new"><i class="ion-ios-plus-outline"></i>New game</button>
+       <button class="btn__roll"><i class="ion-ios-loop"></i>Roll dice</button>
+       <button class="btn__hold"><i class="ion-ios-download-outline"></i>Hold</button>
+ 
+       <img src="assets/images/dice-5.png" alt="Dice" class="dice">
+    </div>
 
 
     <!-- build:js js/app.js -->

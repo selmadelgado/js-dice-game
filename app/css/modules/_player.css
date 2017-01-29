@@ -1,0 +1,77 @@
+/**********************************************
+*** PLAYERS
+**********************************************/
+
+/*
+.player-0-panel,
+.player-1-panel {
+    width: 50%;
+    float: left;
+    height: 600px;
+    padding: 100px;
+}
+*/
+
+.player {
+  float: left;
+  height: 600px;
+  padding: 100px;
+  width: 50%;
+
+  &__name {
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    position: relative;
+}
+ 
+	&__score {
+ 	color: #EB4D4D;
+    font-size: 80px;
+    font-weight: 100;
+    margin-bottom: 130px;
+    text-align: center;
+}
+ 
+   &__current {
+    &-box {
+	background-color: #EB4D4D;
+    color: #fff;
+	margin: 0 auto;
+    padding: 12px;
+    text-align: center;
+    width: 40%;
+}
+ 	&-label {
+    color: #222;
+    font-size: 12px;
+ 	margin-bottom: 10px;
+ 	text-transform: uppercase;
+}
+    &-score {
+      font-size: 30px;
+    }
+  }
+ 
+   &--active {
+    background-color: #f7f7f7;
+ 
+     & > .player__name {
+       font-weight: 300;
+ 
+       &::after {
+        color: #EB4D4D;
+    	content: "\2022";
+		font-size: 47px;
+		position: absolute;
+		top: -7px;
+		right: 10px;
+		
+     }
+   }
+ }
+}
