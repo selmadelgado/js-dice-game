@@ -99,6 +99,14 @@ i {
 *** PLAYERS
 **********************************************/
 
+.player-1-panel,
+.player-2-panel {
+  float: left;
+  height: 600px;
+  padding: 100px;
+  width: 50%;
+}
+
 .player {
   float: left;
   height: 600px;
