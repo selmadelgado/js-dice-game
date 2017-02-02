@@ -58,8 +58,8 @@
 	    console.log(dice1, dice2);
 
 	    //var diceDOM = document.querySelector('.dice');
-	    document.getElementById('dice-1').style.display = 'block';
-	    document.getElementById('dice-2').style.display = 'block';
+	    document.getElementById('dice-1').style.display = 'inline';
+	    document.getElementById('dice-2').style.display = 'inline';
 	    //diceDOM.style.display = 'block';
 	    //diceDOM.src = 'assets/images/dice-' + dice + '.png';
 	    document.getElementById('dice-1').src = 'assets/images/dice-' + dice1 + '.png';
