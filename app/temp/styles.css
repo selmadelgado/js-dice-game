@@ -95,9 +95,9 @@ i {
           transform: translateX(-50%);
  }
 
-#dice-1 {top: 0px;}
+#dice-1 {top: 25%;}
 
-#dice-2 {top: 50px;}
+#dice-2 {top: 40%;}
 
 /**********************************************
 *** PLAYERS
